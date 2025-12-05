@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>😼Michis Compiladores del Multiverso😼</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #B8D8E8 0%, #9EC5D9 100%);
+            padding: 80px 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: 3.5em;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 0;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: left;
+            font-size: 2.5em;
+            color: #4A90A4;
+            margin-bottom: 50px;
+            font-weight: 600;
+        }
+
+        .team-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            padding: 20px;
+            max-width: 800px;
+        }
+
+        .team-card {
+            background: linear-gradient(135deg, #E3F2FD 0%, #cae6f3 100%);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 8px 16px rgba(74, 144, 164, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .team-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(74, 144, 164, 0.25);
+        }
+
+        .profile-circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            background: linear-gradient(135deg, #64B5F6 0%, #42A5F5 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 5px solid #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .profile-circle img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .profile-placeholder {
+            font-size: 3em;
+            color: #ffffff;
+        }
+
+        .member-name {
+            font-size: 1.5em;
+            color: #2C5F7D;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .github-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #4A90A4 0%, #3B7A8E 100%);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(74, 144, 164, 0.2);
+        }
+
+        .github-link:hover {
+            background: linear-gradient(135deg, #3B7A8E 0%, #2C5F7D 100%);
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(74, 144, 164, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .section-title {
+                font-size: 1.8em;
+            }
+
+            .team-container {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Michis Compiladores del Multiverso de Sombras Binarias</h1>
+    </header>
+
+    <main>
+        <h2 class="section-title">Conoce a...</h2>
+        
+        <div class="team-container">
+            <div class="team-card">
+                <div class="profile-circle">
+                    <img src="https://i.pinimg.com/1200x/34/50/49/34504933ac4ae59374a03b9a4d83ae62.jpg" alt="Nombre Michi 1">
+                </div>
+                <h3 class="member-name">Hanz</h3>
+                <a href="https://github.com/usuario1" class="github-link" target="_blank">Ver GitHub</a>
+            </div>
+
+            <div class="team-card">
+                <div class="profile-circle">
+                    <img src="https://i.pinimg.com/736x/2f/68/81/2f68815cfd8cd3b71a6a6635061f4c5f.jpg" alt="Nombre Michi 2">
+                </div>
+                <h3 class="member-name">Emanuel</h3>
+                <a href="https://github.com/usuario2" class="github-link" target="_blank">Ver GitHub</a>
+            </div>
+
+            <div class="team-card">
+                <div class="profile-circle">
+                    <img src="https://i.pinimg.com/736x/37/10/0f/37100f3d0ce95f58962cf25cdd3f4143.jpg" alt="Nombre Michi 3">
+                </div>
+                <h3 class="member-name">Chun</h3>
+                <a href="https://github.com/usuario3" class="github-link" target="_blank">Ver GitHub</a>
+            </div>
+
+            <div class="team-card">
+                <div class="profile-circle">
+                    <img src="https://i.pinimg.com/736x/7c/22/11/7c2211eca972b889ddd9f94b7dc00d8a.jpg" alt="Nombre Michi 4">
+                </div>
+                <h3 class="member-name">Jefferson</h3>
+                <a href="https://github.com/usuario4" class="github-link" target="_blank">Ver GitHub</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
